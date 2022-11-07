@@ -4,111 +4,101 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Mada`s Personal Site</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <title>Andra-Madalina Spataru</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="images/favicon.ico?v=2" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
+      rel="stylesheet"
+    />
   </head>
 
   <body>
-    <table cellspacing="22px">
-      <tr>
-        <td>
-          <img src="images/me2.png" alt="Mada`s profile pages" />
-        </td>
-        <td>
-          <h1 id="heading">Andra-Madalina Spataru</h1>
-          <p>
-            <em>
-              <strong> Unity Developer</strong><br />
-              Matrix Softaware House<br />
-              Linkedin:
-              <a
-                href="https://www.linkedin.com/in/andra-madalina-spataru-98a307214/"
-              >
-                Andra-Madalina</a
-              >
-            </em>
-          </p>
-          <p>
-            I am a junior game developer with 1+ years of experience in Unity. I
-            am an ambitious and organized person. I love to climb to mountains,
-            spend time in nature and read books.
-          </p>
-        </td>
-      </tr>
-    </table>
-    <hr/>
-    <h3><strong>Work Experience</strong></h3>
-    <table>
-      <thead>
-        <tr>
-          <th>Dates</th>
-          <th>Experince</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>2019-2022</td>
-          <td>Student</td>
-        </tr>
-        <tr>
-          <td>2022</td>
-          <td>Matrix Softaware House</td>
-        </tr>
-      </tbody>
-    </table>
-    <hr />
-    <h3><strong>Education</strong></h3>
-    <ul>
-      <li><a href="https://www.cs.ubbcluj.ro/">University Babeș-Bolyai</a></li>
-    </ul>
-    <hr />
-    <h3>Skills</h3>
-    <table border="1px">
-      <tr>
-        <td>
-          <table>
-            <tr>
-              <td>C# & .Net</td>
-              <td>★★★★☆</td>
-            </tr>
-            <tr>
-              <td>Unity</td>
-              <td>★★★☆☆</td>
-            </tr>
-            <tr>
-              <td>Flutter</td>
-              <td>★★★☆☆</td>
-            </tr>
-          </table>
-        </td>
-        <td>
-          <table>
-            <tr>
-              <td>Listening</td>
-              <td>★★★★☆</td>
-            </tr>
-            <tr>
-              <td>Reading</td>
-              <td>★★★☆☆</td>
-            </tr>
-            <tr>
-              <td>Writting</td>
-              <td>★★★☆☆</td>
-            </tr>
-          </table>
-        </td>
-      </tr>
-    </table>
-    <br />
-    <hr />
-    <a href="hobbies.html">My Hobbies</a>
-    <br />
-    <a href="contact.html">My Contact</a>
-    <br />
-    <a href="input.html">Input</a>
+    <div class="top_container">
+      <img class="top-cloud" src="images/cloud.png" alt="cloud-img " />
+      <h1>I'm Madalina.</h1>
+      <h2>Unity <span class="pro">Pro</span>grammer</h2>
+      <img class="bottom-cloud" src="images/cloud.png" alt="cloud-img " />
+      <img class="mountain" src="images/mountain.png" alt="mountain-img " />
+    </div>
 
-    <br>
-    <img class="pancakes" src="images/pancakes_1f95e.png" alt="pancakes_1f95e pages" />
-    <img class="watermelon circular" src="images/watermelon_1f349.png" alt="Watermelon" />
+    <div class="middle-container">
+      <div class="profile">
+        <img
+          class="profileImg"
+          src="images/MadaProfileImage.png"
+          alt="Mada`s profile pages"
+        />
+        <h2>Hello.</h2>
+        <p class="myDescription">
+          I am a junior game developer with 1+ years of experience in Unity. I
+          am an ambitious and organized person. I love to climb to mountains,
+          spend time in nature and read books.
+        </p>
+      </div>
+      <hr />
+      <div class="skills">
+        <h2>My Skills.</h2>
+
+        <div class="skill-row">
+          <img
+            class="firstImageSkill"
+            src="images/coronavirus.png"
+            alt="CoronaVirus"
+          />
+          <h3>3D Virus Simulation Application</h3>
+          <p>
+            With this application, a user can configure a new virus or can
+            choose from four default viruses. Once the simulation begins, the
+            user can visualize a city that behaves as realistically as possible.
+            At the same time, the user can see in the upper left part of the
+            screen different information related to the spread rate,
+            hospitalization rate and mortality rate of the introduced virus and
+            can apply different restrictions to see how the virus evolves. The
+            people on the stage behave as close to reality as possible, they go
+            to work, to restaurants, to the hospital or at home depending on
+            four parameters: Money, Food, Health and Energy. Human behavior was
+            created using Behavior Tree. The decisions that the characters make
+            are based on a score, which has a value between 0 and 1, where it
+            means that the action will not happen, and 1 means that the action
+            must happen. This application aims to clarify the evolution of a
+            virus to humans using a simulation instead of interpreting
+            statistical data
+          </p>
+        </div>
+        <div class="skill-row">
+          <img class="secondImageSkill" src="images/books.png" alt="books" />
+          <h3>Book Vision</h3>
+          <p>
+            BookVision is an application for readers. In this application, the
+            user can add the book he is reading or wants to buy it. Information
+            about the book can be retained, such as: the name of the book, the
+            author, a short description, the number of pages, the publisher. The
+            user can view the books read, owned, desired or currently reading.
+            This application can be used even when there is no internet
+            connection. BookVision is an application that comes to the aid of
+            users who want to know what books they have read or what books they
+            want.
+          </p>
+        </div>
+      </div>
+      <hr />
+      <div class="contact-me">
+        <h2>Get In Touch</h2>
+        <a class="btn" href="mailto:madalina.spataru14@gmail.com">CONTACT ME</a>
+      </div>
+    </div>
+
+    <div class="bottom-container">
+      <a
+        class="footer-link"
+        href="https://www.linkedin.com/in/andra-madalina-spataru-98a307214/"
+        >LinkedIn</a
+      >
+      <a class="footer-link" href="https://github.com/MadalinaAnd">GitHub</a>
+      <p class="finalP">©2022 Madalina Spataru</p>
+    </div>
   </body>
 </html>
